@@ -1,0 +1,26 @@
+.btn-blue {
+	background-color: #b84a18;
+	background-image: linear-gradient(180deg, #d4561f 0%, #9a3f14 100%);
+	padding: 18px 36px;
+	border-radius: 8px;
+	color: #fffaf6;
+	font-family: 'Oswald', sans-serif;
+	font-size: 1rem;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 0.16em;
+	transition: 0.35s;
+	box-shadow:
+		0 6px 22px rgba(154, 63, 20, 0.45),
+		0 2px 8px rgba(0, 0, 0, 0.25);
+	border: 1px solid rgba(255, 200, 160, 0.35);
+}
+
+.btn-blue:hover {
+	background-color: #8a3812;
+	background-image: linear-gradient(180deg, #c24e1a 0%, #6e2a0c 100%);
+	color: #ffffff;
+	box-shadow:
+		0 10px 32px rgba(110, 42, 12, 0.55),
+		0 3px 10px rgba(0, 0, 0, 0.3);
+}
